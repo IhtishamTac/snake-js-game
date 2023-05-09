@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mapCanvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+#playerName{
+    width: 200px;
+    height: 28px;
+}
+#playz{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #0069d9; 
+}
+
+#playz:hover{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #5d96d4;
+}
